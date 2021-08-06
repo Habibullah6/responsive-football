@@ -121,9 +121,9 @@ body{
 
 
    .highlight-title{
-       font-size: 48px;
-       color: #0c0479;
-       line-height: 60px;
+       font-size: 35px;
+       color: navy;
+       line-height: 50px;
    }
 
    .logo{
@@ -275,6 +275,10 @@ body{
             
         }
 
+        .highlight-title{
+            font-size: 25px;
+        }
+
 
         .highlight-photo img{
             width: 320px;
@@ -300,7 +304,7 @@ body{
     }
 
 
-    /*---------------- responsive for tablet---------------- */
+    /*---------------- responsive for tablet and laptop---------------- */
 
     @media screen and (min-width: 689px) and (max-width: 1280px){
         .banner{
